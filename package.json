@@ -1,0 +1,42 @@
+{
+  "name": "sig-app",
+  "version": "1.0.0",
+  "description": "Signature App POC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndoz/sig-app.git"
+  },
+  "author": "Nick Dozier",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "react-scripts": "^3.0.1"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-signature-canvas": "^1.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: #ffffff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    height: 25px;
+    background-color: #169a5a;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.sigContainer {
+    width: 80%;
+    height: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+}
+
+.sigPad {
+    width: 100%;
+    height: 100%;
+}
+
+.buttons {
+    width: 80%;
+    height: 30px;
+    border: 0;
+    display: block;
+    margin: 0 auto 20px;
+    background-color: transparent;
+}
+.submit{
+    background-color: #169a5a;
+    border: 1px solid #006639;
+    color: #ffffff;
+}
+.clear{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+.sigImage {
+    background-size: 200px 50px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+}
+.result{
+    margin: 0 auto;
+    width: 80%;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
