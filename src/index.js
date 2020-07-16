@@ -9,6 +9,7 @@ class App extends Component {
     sigPad = {}
     clear = () => {
     this.sigPad.clear()
+    this.setState({ trimmedDataURL: null})
 }
 
 submitSignature = () => {
